@@ -122,6 +122,17 @@ p {
   margin-top: 0;
 }
 
+p.sep {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.maj {
+  font-size: 12px;
+  color: #888888;
+  font-style: italic;
+}
+
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {

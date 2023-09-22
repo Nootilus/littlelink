@@ -581,10 +581,21 @@ button:hover,
 .button.button-mastodon {
   color: #ffffff;
   background-color: #17063B;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #371b72;
 }
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
+  filter: brightness(90%);
+}
+
+/* Nootilus */
+.button.button-nootilus {
+  color: #ffffff;
+  background-color: #006496;
+  border: 1px solid #FFFFFF;
+}
+.button.button-nootilus:hover,
+.button.button-nootilus:focus {
   filter: brightness(90%);
 }
 
@@ -777,6 +788,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Komoot */
+.button.button-komoot {
+  color: #ffffff;
+  background-color: #ff8649;
+}
+.button.button-komoot:hover,
+.button.button-komoot:focus {
+  filter: brightness(90%);
+}
+
 /* Spotify */
 .button.button-spotify {
   color: #191414;
@@ -798,6 +819,26 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* HebdoCubes */
+.button.button-hcubes {
+  color: #191414;
+  background-color: #0f8823;
+}
+.button.button-hcubes:hover,
+.button.button-hcubes:focus {
+  filter: brightness(90%);
+}
+
+/* Scribulerie */
+.button.button-scribulerie {
+  color: #191414;
+  background-color: #d4bd9f;
+}
+.button.button-scribulerie:hover,
+.button.button-scribulerie:focus {
+  filter: brightness(90%);
+}
+
 /* Square */
 .button.button-square {
   color: #FFFFFF;
@@ -815,6 +856,26 @@ button:hover,
 }
 .button.button-steam:hover,
 .button.button-steam:focus {
+  filter: brightness(90%);
+}
+
+/* Motion Design */
+.button.button-motion {
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #9c9c9c, #636363);
+}
+.button.button-motion:hover,
+.button.button-motion:focus {
+  filter: brightness(90%);
+}
+
+/* Auteur */
+.button.button-auteur {
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #c2a48b, #d19343);
+}
+.button.button-auteur:hover,
+.button.button-auteur:focus {
   filter: brightness(90%);
 }
 
@@ -929,6 +990,17 @@ button:hover,
 }
 .button.button-unsplash:hover,
 .button.button-unsplash:focus {
+  filter: brightness(90%);
+}
+
+/* La Coquille */
+.button.button-coquille {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #212121;
+}
+.button.button-coquille:hover,
+.button.button-coquille:focus {
   filter: brightness(90%);
 }
 
@@ -1050,7 +1122,7 @@ button:hover,
 .button.button-yt {
   color: #ffffff;
   background-color: #000000;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #a10000;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
