@@ -357,6 +357,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Gemini Protocol */
+.button.button-gemini {
+  color: #ffffff;
+  background-color: #18181C;
+  border: 1px solid #fdc81a;
+}
+.button.button-gemini:hover,
+.button.button-gemini:focus {
+  filter: brightness(90%);
+}
+
 /* GitHub */
 .button.button-github {
   color: #ffffff;
